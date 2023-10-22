@@ -6,6 +6,6 @@ var usuario = {
  
 //console.log(usuario)
 
-var saludo = "Hola, me llamo Ale, tengo 19 años y soy de Puerto Real."
+var saludo = `Hola, me llamo ${nombre}, tengo ${Edad} años y soy de ${Ciudad}.`
 
 console.log(saludo)
