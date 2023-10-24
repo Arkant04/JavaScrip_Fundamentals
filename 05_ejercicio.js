@@ -1,7 +1,7 @@
 function areaCirculo(radio) 
 {
-   π = 3.14
-   area = π  * radio * radio;
+   let π = 3.14
+   let area = π  * radio * radio;
    console.log("El area del radio" + " " + "es:" + area);
        
 }
