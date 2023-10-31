@@ -5,8 +5,8 @@ function IMC(peso, altura){
       altura: altura,
       imc: resultadoIMC
     }
-    return calculo_del_imc
+    return calculo_del_imc;
   }
   
-  IMC(133, 1.90)
-   console.table(IMC)
+   let IMC_de_una_persona = IMC(133, 1.90)
+   console.table(IMC_de_una_persona)
