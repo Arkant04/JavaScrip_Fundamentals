@@ -22,8 +22,11 @@ function maximo(arr) {
 }
 
 
-function media(arr) {
-
+function media() {
+  let suma = numeros1.reduce((previous, current) => current += previous);
+  let media = suma /numeros1.length;
+  console.log(media)
 }
 minimo(numeros1)
 maximo(numeros1)
+media()
